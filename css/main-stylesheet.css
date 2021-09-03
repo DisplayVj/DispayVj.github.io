@@ -1,0 +1,369 @@
+
+html, body 
+{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 100;
+}
+
+a {
+	color: white;
+}
+
+.accent-0 
+{
+	background-color: #131316;
+}
+
+.accent-1 
+{
+	background-color: #16161A;
+}
+
+
+*.unselectable {
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+   user-select: none;
+}
+
+.parallax-background
+{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-image: url("../img/city.jpg");
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.vertically-centered
+{
+	position: absolute;
+	margin: 0px 40px;
+	top: 50%;
+ 	transform: translateY(-50%);
+ 	-ms-transform: translateY(-50%);
+}
+
+.horizontally-centered
+{
+	position: absolute;
+	margin: 40px 0px;
+	left: 50%;
+ 	transform: translateX(-50%);
+ 	-ms-transform: translateX(-50%);
+}
+
+.expandable-button-container
+{
+	display:flex;
+	justify-content: center;
+}
+
+.expandable-button
+{
+	float: left;
+}
+
+.expandable-button a
+{
+	display: block;
+}
+
+.display-table
+{
+	width: 100%;
+}
+
+.display-table-row
+{
+    display: flex;
+    flex-wrap: wrap;
+	align-items: flex-start;
+    justify-content: center;
+    align-content: flex-start;
+	margin-bottom: 30px;
+}
+
+.display-table-row div
+{
+	flex: 1;
+	margin: 10px;
+	min-width:300px;
+}
+
+.display-table-row img
+{
+	flex: 1;
+	margin: 10px;
+	max-height: 600px;
+	max-width: 600px;
+
+	min-height: 200px;
+	min-width: 300px;
+}
+
+/* ID stylings for header and menu elements: */
+
+#header-container
+{
+	padding: 50px 40px;
+}
+
+#title-container
+{
+	color: white;
+	text-align: center;
+	text-shadow: 1px 1px 5px #0007;
+}
+
+#title-container p
+{
+	margin: 0;
+}
+
+#site-main-title
+{
+	font-size: 45px;
+	letter-spacing: 5px;
+}
+
+#site-sub-title
+{
+	font-size: 25px;
+	letter-spacing: 3px;
+}
+
+/*-------------Menu------------*/
+
+#menu-container
+{
+	position: relative;
+	display: inline-block;
+	width: 100%;
+}
+
+#menu-container ul
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#menu-container li 
+{
+	flex: 1;
+}
+
+#menu-container a
+{
+	padding: 20px 25px;
+	margin: 0;
+
+	color: black;
+	text-decoration: none;
+	background-color: #F4EFEF;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+#menu-container a:hover
+{
+	background-color: #E4DEDE;
+}
+
+/* ID stylings for site sections */
+
+.site-section
+{
+	padding: 40px 60px;
+	color: #AAA;
+}
+
+.site-section-title
+{
+	font-size: 14pt;
+	text-align: center;
+	letter-spacing: 3px;
+	margin: 10px 0px;
+	color: #EEE;
+}
+
+.site-section-body
+{
+	text-align: justify;
+	color: #AAA;
+
+	width: auto;
+	margin: auto 15%;
+	line-height: 24px;
+	font-family: 'Trebuchet MS', sans-serif;
+}
+
+/* ID stylings for skills section */
+#skill-display-container
+{
+	display: inline-block;
+	width: 100%;
+	margin: 0;
+	overflow: wrap;
+}
+
+#skill-display-container div
+{
+	flex-wrap: wrap;
+}
+
+.skill-display-box
+{
+	margin: 40px 40px;
+}
+
+.skill-display-box h1, h2, h3, h4, p
+{
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+/* ID stylings for contact info */
+
+#socials-container
+{
+	display: inline-block;
+	width: 100%;
+}
+
+#socials-container ul
+{
+	list-style: none;
+	padding:0;
+	margin:0px;
+}
+
+#socials-container li
+{
+	margin: 0px 5px;
+	transition: 0.5s ease;
+}
+
+#socials-container a
+{
+	padding: 20px;
+	margin: 0;
+	text-decoration: none;
+}
+
+.fab
+{
+	text-align: center;
+	color: white;
+	transition: 0.2s ease;
+}
+
+.fab:hover 
+{
+	transform: scale(1.04);
+}
+
+.fa-instagram { background-color: #125688; }
+
+.fa-google { background-color: #dd4b39; }
+
+.fa-linkedin { background-color: #007bb5; }
+
+.fa-github { background-color: #EEE; color: black; }
+
+.fa-facebook { background-color: #3B5998; }
+
+.fa-itch-io { background-color: #fa5c5c; }
+
+.fa-discord { background-color: #5865F2; }
+
+/* For tablets: */
+@media only screen and (max-width:800px) 
+{
+
+	.expandable-button-container
+	{
+		display: block;
+	}
+
+	.expandable-button
+	{
+		width: 100%;
+		margin: 0;
+	}
+
+	.site-section-body 
+	{
+		width: auto;
+		margin: auto 10%;
+	}
+
+	.skill-display-box
+	{
+		margin: 10px 0px;
+	}
+	
+	#title-container
+	{
+		width: 100%;
+		margin: 0;
+	}
+
+	#socials-container li
+	{
+		margin: 5px 0px;
+	}
+}
+
+/* For mobile phones: */
+@media only screen and (max-width:500px)
+{
+	.expandable-button-container
+	{
+		display: block;
+	}
+
+	.expandable-button
+	{
+		width: 100%;
+	}
+
+	.site-section-body
+	{
+		text-align: left;
+		width: auto;
+		margin: auto 5px;
+	}
+
+	.site-section-body {
+		width: auto;
+		margin: auto;
+	}
+
+	#title-container 
+	{
+		width: 100%;
+		margin: 0;
+	}
+
+	#socials-container li
+	{
+		margin: 5px 0px;
+	}
+}
+
+
