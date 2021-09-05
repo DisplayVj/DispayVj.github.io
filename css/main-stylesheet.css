@@ -1,6 +1,7 @@
 
 html, body 
 {
+	background-color:#131316;
 	margin: 0;
 	padding: 0;
 	width: 100%;
@@ -11,7 +12,8 @@ html, body
 }
 
 a {
-	color: white;
+	color: #DDD; 
+	text-decoration: none;
 }
 
 .accent-0 
@@ -107,10 +109,7 @@ a {
 {
 	flex: 1;
 	margin: 10px;
-	max-height: 600px;
-	max-width: 600px;
-
-	min-height: 200px;
+	max-width: 550px;
 	min-width: 300px;
 }
 
@@ -209,6 +208,30 @@ a {
 	margin: auto 15%;
 	line-height: 24px;
 	font-family: 'Trebuchet MS', sans-serif;
+}
+
+/* ID stylings for presentation slide show section */
+
+.slide-show-container
+{
+}
+
+.slide-show-page
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.slide-show-page > img
+{
+	margin: auto;
+	max-width: 100%;
+	background-color: black;
+}
+
+.slide-show-page > p
+{
+	margin: 15px 0;
 }
 
 /* ID stylings for skills section */

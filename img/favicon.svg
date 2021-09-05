@@ -1,1 +1,13 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 538.96 500"><defs><style>.cls-1{fill:#fff;}</style></defs><title>favicon</title><path class="cls-1" d="M346.79,250h0c-64.66,0-108.14,66.25-82.42,125.57L415,723h0l80.7-197.62a89.82,89.82,0,0,0-.75-69.71L429.2,304.09A89.83,89.83,0,0,0,346.79,250Z" transform="translate(-256.85 -250)"/><path class="cls-1" d="M705.08,250a90.63,90.63,0,0,0-83.91,56.37L535,517.37,440,750H630a8.65,8.65,0,0,0,8-5.38L789,374.91C813.34,315.28,769.48,250,705.08,250Z" transform="translate(-256.85 -250)"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 539 500" style="enable-background:new 0 0 539 500;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+</style>
+<title>favicon</title>
+<path class="st0" d="M118.2,39.4L118.2,39.4c-54.5,0-91.1,55.8-69.4,105.8l126.9,292.7l0,0l68-166.5c7.7-18.9,7.5-40-0.6-58.7
+	L187.6,84.9C175.7,57.3,148.4,39.4,118.2,39.4z"/>
+<path class="st0" d="M420.1,39.4c-31,0-59,18.8-70.7,47.5l-72.6,177.8l-80,196h160.1c3,0,5.6-1.8,6.7-4.5l127.2-311.5
+	C511.3,94.4,474.3,39.4,420.1,39.4z"/>
+</svg>
