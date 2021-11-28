@@ -124,7 +124,7 @@ a {
 {
 	color: white;
 	text-align: center;
-	text-shadow: 1px 1px 5px #0007;
+	text-shadow: 1px 1px 4px #000A;
 }
 
 #title-container p
@@ -134,13 +134,13 @@ a {
 
 #site-main-title
 {
-	font-size: 45px;
+	font-size: 50px;
 	letter-spacing: 5px;
 }
 
 #site-sub-title
 {
-	font-size: 25px;
+	font-size: 30px;
 	letter-spacing: 3px;
 }
 
